@@ -50,8 +50,16 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>compile</scope>
-		</dependency>		
+		</dependency>	
+		<!-- http://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+		    <groupId>org.projectlombok</groupId>
+		    <artifactId>lombok</artifactId>
+		    <version>1.16.8</version>
+		</dependency>
     </dependencies>  
+    
+    
     
      <!-- Package as an executable jar -->
     <build>
